@@ -1,0 +1,33 @@
+name: Make Email Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_path:
+        description: "What folder to draft?"
+        required: true
+
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v2
+
+      # update stats
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: cache pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - run: pip install -r requirements.txt
+
+      - run: python scripts/make_newsletter_draft.py
+        env:
+          BD_TOKEN: ${{ secrets.BD_TOKEN }}

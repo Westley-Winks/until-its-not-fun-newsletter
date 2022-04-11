@@ -1,0 +1,87 @@
+## Basic Configuration
+
+baseURL = "untilitsnotfun.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+enableEmoji = true
+
+author = "Until It's Not Fun"
+title = "Until It's Not Fun"
+
+## Hugo Built-in Features
+## googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Until It's Not Fun"
+intro = "A Weekly Newsletter"
+description = "We are just a couple of friends wanting to build a newsletter for ourselves, with no expectations other than having fun.\n\nSo, how long are we doing this for?\n\nUntil It's Not Fun."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Description"
+keywords = "hugo, portfolio"
+
+[[params.authors]]
+    name = "Jacob McLane"
+    image = "jacob.jpg"
+
+[[params.authors]]
+    name = "Westley Winks"
+    image = "westley.jpeg"
+
+## Social Accounts
+[params.social]
+## github = "<username>"
+## instagram = "<username>"
+## linkedin = "<username>"
+## youtube = "<channelid>"
+## email = "you@example.com"
+## xing = "<username>"
+## twitter = "<username>"
+## facebook = "<username>"
+## google = "<username>"
+## googlescholar = "<account_id>"
+## stackoverflow = "<username>"
+## lastfm = "<username>"
+## goodreads = "<username>"
+## gitlab = "<username>"
+## bitbucket = "<username>"
+## fivehundredpx = "<username>"
+## flickr = "<username>"
+## foursquare = "<username>"
+## hackernews = "<username>"
+## kickstarter = "<username>"
+## patreon = "<username>"
+## pintrest = "<username>"
+## steam = "<username>"
+## reddit = "<username>"
+## snapchat = "<username>"
+## keybase = "<username>"
+## twitch = "<username>"
+## soundcloud = "<username>"
+## tumblr = "<username>"
+## strava = "<username>"
+## skype = "<username>"
+## telegram = "<username>"
+## whatsapp = "<username>"
+## pgp = "<key_fingerprint>"
+
+## Extras
+[params.extra]
+copyright = "© 2022. Until It's Not Fun."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+
+## Main Menu
+## [[menu.main]]
+##     name = "about"
+##     identifier = "about"
+##     weight = 100
+##     url = "/about/"

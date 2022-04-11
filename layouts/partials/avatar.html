@@ -1,0 +1,13 @@
+<header class="text-center header">
+  <div class="author-images">
+    {{ range .Site.Params.authors }}
+    <div class="author-card">
+    {{ with .image }}
+    <img src="./img/{{ . }}" alt="Author Image" class="rounded-circle text-center headshot">
+  {{ end }}
+  <h4 class="text-center">{{ .name }}</h4>
+</div>
+{{ end }}
+  </div>
+  <h1 class="author">{{ .Site.Params.author }}</h1>
+</header>

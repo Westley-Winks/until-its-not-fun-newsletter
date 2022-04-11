@@ -1,0 +1,25 @@
+<footer class="text-center footer">
+  <hr />
+
+  <a href="https://buttondown.email/Westley-Winks" target="_blank" rel="noopener">Subscribe here to get posts in your inbox.</a>
+
+  <form
+  style="padding: 15px;"
+  action="https://buttondown.email/api/emails/embed-subscribe/untilitsnotfun"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/untilitsnotfun', 'popupwindow')"
+  class="embeddable-buttondown-form"
+  >
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  </form>
+
+  {{ with .Site.Params.extra }}
+  <h6 class="text-center copyright">{{ .copyright | markdownify }}</h6>
+
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo  v{{ hugo.Version }}</a> &amp; <a href="https://github.com/shenoybr/hugo-goa" target="_blank" rel="noopener">Goa</a> &amp; <a href="buttondown.email?utm_campaign=untilitsnotfun&utm_affiliate=affiliate" target="_blank" rel="noopener">Buttondown</a></h6>
+
+  {{ end }}
+</footer>
