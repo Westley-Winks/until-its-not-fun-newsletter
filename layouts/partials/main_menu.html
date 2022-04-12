@@ -1,14 +1,13 @@
-<!-- {{ with .Site.Menus.main }}
+{{ with .Site.Menus.main }}
 <section id="main-menu-pane" class="text-center main-menu">
   {{ range sort . }}
   <h4><a class="menu-item" href="{{ .URL }}">{{ .Name }}</a></h4>
-  <h4><a class="menu-item" href="{{ .URL }}"{{ if not (hasPrefix .URL "/") }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></h4>
   {{ end }}
 </section>
-{{ end }} -->
+{{ end }}
 
-<section id="main-menu-pane" class="text-center main-menu">
+<!-- <section id="main-menu-pane" class="text-center main-menu">
   {{ range .Site.Menus.main }}
   <h4><a class="menu-item" href="{{ .URL }}"{{ if not (hasPrefix .URL "/") }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></h4>
   {{ end }}
-</section>
+</section> -->
