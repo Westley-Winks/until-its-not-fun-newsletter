@@ -6,6 +6,7 @@ on:
       post_path:
         description: "What folder to draft?"
         required: true
+        type: string
 
 
 jobs:
@@ -15,7 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # update stats
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
@@ -31,3 +31,4 @@ jobs:
       - run: python scripts/make_newsletter_draft.py
         env:
           BD_TOKEN: ${{ secrets.BD_TOKEN }}
+          INPUT_POST_PATH: ${{ github.event.inputs.post_path }}

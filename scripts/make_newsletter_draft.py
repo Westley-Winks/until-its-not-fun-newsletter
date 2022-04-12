@@ -3,8 +3,8 @@ import os
 import requests
 import re
 
-from dotenv import load_dotenv
-load_dotenv(".env")
+# from dotenv import load_dotenv
+# load_dotenv(".env")
 
 BD_TOKEN = os.environ["BD_TOKEN"]
 POST_PATH = os.environ["INPUT_POST_PATH"]
@@ -24,20 +24,17 @@ def make_draft(post_path):
     pattern = re.compile(r"title:\s\".*\"")
     subject = pattern.search(body).group(0)
     subject = subject.replace("title: ", "").strip("\"")
-    payload["subject"] = subject
-
-    # get date from front matter
-    # pattern = re.compile(r"date:\s\d{4}-\d{2}-\d{2}")
-    # folder = pattern.search(body).group(0)
-    # folder = folder.replace("date: ", "").strip("\"")
+    payload["subject"] = subjectes
 
     # remove front matter
     pattern = re.compile(r"---\n[\w\:\s\"\.\-]+\n---")
     front_matter = pattern.match(body).group(0)
     body = body.replace(front_matter, "")
 
-    header_text = f"[View in Browser](example.com/posts/{post_path}/)\n\n"
+    # add View In Browser link
+    header_text = f"[View in Browser](https://untilitsnotfun.com/posts/{post_path}/)\n\n"
 
+    # combine link, subject as heading and body
     payload["body"] = header_text + f"# {subject}" + body
 
     r = requests.post("https://api.buttondown.email/v1/drafts", headers=headers, data=payload)
