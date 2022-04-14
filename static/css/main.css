@@ -10,14 +10,15 @@
 {
     width: device-width;
 }
+
 a,
 a:hover,
+a:focus,
 a:visited,
 a:link
 {
-    text-decoration: none;
-
-    color: #526d7a;
+    text-decoration: underline;
+    color: #1b34bd;
 }
 body
 {
@@ -178,6 +179,8 @@ h3.intro
 .list-entry-link
 {
     padding: 0;
+    text-decoration: none !important;
+    color: #526d7a !important;
 }
 .main-menu
 {
@@ -195,7 +198,7 @@ h3.intro
     font-size: 20px;
     font-weight: 300;
 
-    text-decoration: none;
+    text-decoration: none !important;
 
     color: #966 !important;
 }
