@@ -1,0 +1,9 @@
+{{ if eq (.Get 1) 0 }} <!--if second param is 0 don't open in new tab -->
+
+<a {{ with .Get 0 }} href="{{ . }}" {{ end }}>{{ .Inner }}</a>
+
+{{ else if eq (.Get 1) 1 }} <!-- if second param is 1 open in new tab -->
+
+<a {{ with .Get 0 }} href="{{ . }}" {{ end }} target="_blank" rel="noopener">{{ .Inner }}</a>
+
+{{ end }}
