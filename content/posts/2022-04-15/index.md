@@ -1,20 +1,12 @@
 ---
-title: "Pig and IRC"
+title: "IRC and Pig"
 date: 2022-04-15
 draft: false
 toc: false
 description: "Jacob reviews the movie Pig with Nicolas Cage and Westley writes about his experience exploring IRC."
 ---
-## Popcorn and A Coke
-### *Where Jacob talks movies*
-...
-
-...
-
-...
-
 ## The Tech Shelf
-### *Where Westley talks about IRC*
+##### *Where Westley talks about IRC*
 
 /join #untilitsnotfun
 
@@ -42,9 +34,46 @@ description: "Jacob reviews the movie Pig with Nicolas Cage and Westley writes a
 
 *(1:30:22 PM)* **dadofapollo has left the room (quit: see you next week)**
 
+## Popcorn and A Coke
+##### *Where Jacob talks about movies - this week the movie {{< link "https://www.imdb.com/title/tt11003218/" 1 >}}Pig{{< /link >}}*
+
+#### Pig
+Michael Sarnoski (Director)
+
+Nicolas Cage (Main)
+
+Alex Wolff (Main)
+
+Wow, this was an incredible movie! I'm not going to go over too much detail because I want you to watch it.
+
+This movie is about a man who knows how to love. From the opening scene, you can tell the amount of appreciation he has for everything, from walking in the woods to cooking dinner. He goes through life like a fine wine he is drinking up.
+
+You get an indication of perhaps why he has this view of the world and why he's secluded in the wilderness, but you are definitely left with questions.
+
+He has a friend, a best friend that is a Pig. Rob's pig is highly trained to find black truffles, but the pig gets taken from him. And that is the basis of this story. Rob (Nicolas Cage) goes on the hunt to find his friend, the pig.
+
+Through this adventure, you learn who Rob is and the world he left behind.
+
+During this movie I sat back many times thinking of how well they captured "love," and the important things in life. One scene stuck out to me. In it, Rob is talking to an old co-worker. Rob starts relaying the things this co-worker had said in the past about his dreams and ambitions. This old co-worker is successful but isn't living in his true passion, and at the end of the conversation, Rob's co-worker realizes that "this" is not true success. The lesson taught in that scene can be life-changing.
+
+Pig is a beautiful story wrapped in a very entertaining and unique movie. I highly recommend a watch.
+Thank you for your time.
+
+Jacob
+
+My notes while watching the movie are below.
+
+\*Spoiler Warning\*
+
+<button type="button"
+        onclick="show()">
+        Show Notes
+</button>
+
+<img src="pig_notes.jpg" id="hidden-image" style="display: none;"/>
+
+
 ## What We Like This Week:
-- &#x1F4D6; **Book:**
-- &#x1F3A6; **Movie:**
+- &#x1F3A6; **TV Show:** {{< link "https://www.imdb.com/title/tt11126994/" 1 >}}Arcane.{{< /link >}}Just finished this. It was wonderful. Mad it ended. Can't wait for the next season. *-Jacob*
 - &#x1F4FC; **Video:** {{< link "https://www.youtube.com/watch?v=5mfwbkWJP8o" 1 >}}This cover of Maniac by Michael Sembello performed by Pomplamoose. {{< /link >}} I love this group. They ooze passion. Wait until the end of the video and listen to them get all giddy with excitement when the song is over. *-Westley*
 - &#x1F3A7; **Song:** More Pomplamoose. {{< link "https://www.youtube.com/watch?v=5b7wLP1Bmwg" 1 >}}Cover of Grace Kelly by Mika ft. Grace Kelly.{{< /link >}}Grace Kelly is the saxophonist in the cover and absolutely kills it. *-Westley*
-- &#x1F4F0; **Article:**
