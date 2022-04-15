@@ -1,8 +1,9 @@
 ---
-title: "and IRC"
+title: "Pig and IRC"
 date: 2022-04-15
 draft: false
 toc: false
+description: "Jacob reviews the movie Pig with Nicolas Cage and Westley writes about his experience exploring IRC."
 ---
 ## Popcorn and A Coke
 ### *Where Jacob talks movies*
@@ -18,6 +19,8 @@ toc: false
 /join #untilitsnotfun
 
 /nick dadofapollo
+
+*(12:04:08)* **Westley is now known as dadofapollo**
 
 *(12:05:16 PM)* dadofapollo: IRC (Internet Relay Chat) is a beautiful relic of the internet that helped set the stage for how we communicate on the internet today. IRC was one of the first internet based chat systems. Users can enter different chat rooms called channels and can start communicating with anyone else that is in the same channel. People can connect from anywhere in the world with internet access so you have no idea who you are talking to or where they are from. You only know their username (known as a "nick") and whatever they share in the channel. There is a certain element of anonymity where people can truly be themselves without fear of being judged for what they look like, what they do, or anything else. It leads to truly organic and wholesome conversation between complete strangers.
 
@@ -42,6 +45,6 @@ toc: false
 ## What We Like This Week:
 - &#x1F4D6; **Book:**
 - &#x1F3A6; **Movie:**
-- &#x1F3A7; **Song:**
-- &#x1F4FC; **Video:** {{< link "https://www.youtube.com/watch?v=5mfwbkWJP8o" 1 >}}This cover of Maniac by Michael Sembello done by Pomplamoose. {{< /link >}} I absolutely love this group. They ooze passion. Wait until the end of the video and listen to them get all giddy when the song is over.
+- &#x1F4FC; **Video:** {{< link "https://www.youtube.com/watch?v=5mfwbkWJP8o" 1 >}}This cover of Maniac by Michael Sembello performed by Pomplamoose. {{< /link >}} I love this group. They ooze passion. Wait until the end of the video and listen to them get all giddy with excitement when the song is over. *-Westley*
+- &#x1F3A7; **Song:** More Pomplamoose. {{< link "https://www.youtube.com/watch?v=5b7wLP1Bmwg" 1 >}}Cover of Grace Kelly by Mika ft. Grace Kelly.{{< /link >}}Grace Kelly is the saxophonist in the cover and absolutely kills it. *-Westley*
 - &#x1F4F0; **Article:**
