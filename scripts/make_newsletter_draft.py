@@ -1,10 +1,9 @@
-from lib2to3.pygram import pattern_symbols
 import os
 import requests
-import re
+import frontmatter
 
-# from dotenv import load_dotenv
-# load_dotenv(".env")
+from dotenv import load_dotenv
+load_dotenv(".env")
 
 BD_TOKEN = os.environ["BD_TOKEN"]
 POST_PATH = os.environ["INPUT_POST_PATH"]
@@ -18,18 +17,14 @@ def make_draft(post_path):
     payload = {}
 
     with open(f"content/posts/{post_path}/index.md") as f:
-        body = f.read()
+        body = frontmatter.loads(f.read())
 
     # get title from front matter
-    pattern = re.compile(r"title:\s\".*\"")
-    subject = pattern.search(body).group(0)
-    subject = subject.replace("title: ", "").strip("\"")
-    payload["subject"] = subjectes
+    subject = body["title"]
+    payload["subject"] = subject
 
     # remove front matter
-    pattern = re.compile(r"---\n[\w\:\s\"\.\-]+\n---")
-    front_matter = pattern.match(body).group(0)
-    body = body.replace(front_matter, "")
+    body = body.content
 
     # add View In Browser link
     header_text = f"[View in Browser](https://untilitsnotfun.com/posts/{post_path}/)\n\n"

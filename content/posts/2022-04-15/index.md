@@ -1,5 +1,5 @@
 ---
-title: and IRC
+title: "and IRC"
 date: 2022-04-15
 draft: false
 toc: false
@@ -43,5 +43,5 @@ toc: false
 - &#x1F4D6; **Book:**
 - &#x1F3A6; **Movie:**
 - &#x1F3A7; **Song:**
-- &#x1F4AC; **Video:**
+- &#x1F4FC; **Video:** {{< link "https://www.youtube.com/watch?v=5mfwbkWJP8o" 1 >}}This cover of Maniac by Michael Sembello done by Pomplamoose. {{< /link >}} I absolutely love this group. They ooze passion. Wait until the end of the video and listen to them get all giddy when the song is over.
 - &#x1F4F0; **Article:**
