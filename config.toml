@@ -9,6 +9,11 @@ enableEmoji = true
 author = "Until It's Not Fun"
 title = "Until It's Not Fun"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 ## Hugo Built-in Features
 ## googleAnalytics = "XYZ"
 enableRobotsTXT = true

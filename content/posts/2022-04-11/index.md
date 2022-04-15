@@ -3,6 +3,7 @@ title: "Special Edition: Test Run"
 date: 2022-04-11T16:09:32-07:00
 draft: false
 toc: false
+description: "In our first ever post, we test our workflow. Jacob reviews Deep Water and Westley writes about his new keyboard."
 ---
 ## Popcorn and A Coke
 ###### *Where Jacob talks movies*

@@ -9,3 +9,19 @@
   flex: 1 1;
   position: relative;
 }
+
+img:not([class]) {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #526d7a;
+  color: white;
+}
