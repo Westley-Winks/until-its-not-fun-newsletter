@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Until It&#39;s Not Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 11 Apr 2022 16:09:32 -0700</lastBuildDate><atom:link href="https://untilitsnotfun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://untilitsnotfun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IRC and Pig</title>
+      <link>https://untilitsnotfun.com/posts/2022-04-15/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://untilitsnotfun.com/posts/2022-04-15/</guid>
+      <description>The Tech Shelf Where Westley talks about IRC /join #untilitsnotfun
+/nick dadofapollo
+(12:04:08) Westley is now known as dadofapollo
+(12:05:16 PM) dadofapollo: IRC (Internet Relay Chat) is a beautiful relic of the internet that helped set the stage for how we communicate on the internet today. IRC was one of the first internet based chat systems. Users can enter different chat rooms called channels and can start communicating with anyone else that is in the same channel.</description>
+    </item>
+    
     <item>
       <title>Special Edition: Test Run</title>
       <link>https://untilitsnotfun.com/posts/2022-04-11/</link>

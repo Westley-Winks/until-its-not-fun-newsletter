@@ -121,6 +121,8 @@ div.content
     font-size: 18px;
     font-weight: 200;
 
+    font-style: italic;
+
     color: #555;
     margin-bottom: 20px;
 }
