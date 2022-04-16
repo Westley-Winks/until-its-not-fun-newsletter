@@ -5,6 +5,7 @@ builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
 enableEmoji = true
+enableRobotsTXT = true
 
 author = "Until It's Not Fun"
 title = "Until It's Not Fun"
@@ -16,7 +17,7 @@ title = "Until It's Not Fun"
 
 ## Hugo Built-in Features
 ## googleAnalytics = "XYZ"
-enableRobotsTXT = true
+
 
 ## Site Settings
 [params]
@@ -28,8 +29,8 @@ dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Description"
-keywords = "hugo, portfolio"
+description = "A weekly newsletter."
+keywords = "hugo, newsletter, tech, movies"
 
 [[params.authors]]
     name = "Jacob McLane"
