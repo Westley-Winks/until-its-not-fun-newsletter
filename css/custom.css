@@ -25,3 +25,13 @@ button:hover {
   background-color: #526d7a;
   color: white;
 }
+
+h6 a {
+  text-decoration: underline;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+h6 a:hover {
+  background: transparent;
+}
