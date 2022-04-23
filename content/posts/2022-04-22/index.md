@@ -1,5 +1,5 @@
 ---
-title: "Jammy Jellyfish and"
+title: "Jammy Jellyfish"
 date: 2022-04-22
 draft: false
 toc: false
