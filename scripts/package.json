@@ -5,12 +5,13 @@
     "main": "paperboy.js",
     "type": "module",
     "scripts": {
-      "start": "node paperboy.js"
+        "start": "node paperboy.js"
     },
     "author": "Westley Winks",
     "license": "MIT",
     "dependencies": {
-      "dotenv": "^16.0.0",
-      "node-fetch": "^3.2.3"
+        "dotenv": "^16.0.0",
+        "gray-matter": "^4.0.3",
+        "node-fetch": "^3.2.3"
     }
-  }
+}

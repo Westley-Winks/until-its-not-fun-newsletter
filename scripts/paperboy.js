@@ -1,5 +1,11 @@
-import "dotenv/config";
+import dotenv from "dotenv";
+dotenv.config({path: "../.env"})
 import fetch from "node-fetch";
+import * as fs from "fs";
+import matter from "gray-matter";
+// var matter = import("gray-matter");
+
+const post_path = process.env.INPUT_POST_PATH;
 
 // from Discord example repo
 async function DiscordRequest(endpoint, options) {
@@ -25,13 +31,19 @@ async function DiscordRequest(endpoint, options) {
     return res;
 };
 
-const endpoint = `channels/${process.env.CHANNEL_ID}/messages`;
+var file = fs.readFileSync(`../content/posts/${post_path}/index.md`, 'utf8');
 
-console.log(endpoint);
+file = matter(file)
+
+const title = file["data"]["title"]
+const description = file["data"]["description"]
+const url = `https://untilitsnotfun.com/posts/${post_path}`
+
+const endpoint = `channels/${process.env.CHANNEL_ID}/messages`;
 
 DiscordRequest(endpoint, {
     method: "POST",
     body: {
-        content: "Hello world"
+        content: `${title} is out now! Read it at ${url}. Description: ${description}`
     }
 })
