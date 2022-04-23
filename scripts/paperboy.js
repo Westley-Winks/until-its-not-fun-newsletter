@@ -39,11 +39,13 @@ const title = file["data"]["title"]
 const description = file["data"]["description"]
 const url = `https://untilitsnotfun.com/posts/${post_path}`
 
+const issueCount = fs.readdirSync("../content/posts").length - 1;
+
 const endpoint = `channels/${process.env.CHANNEL_ID}/messages`;
 
 DiscordRequest(endpoint, {
     method: "POST",
     body: {
-        content: `${title} is out now! Read it at ${url}. Description: ${description}`
+        content: `Issue ${issueCount} of Until It's Not Fun is out now! Read it at ${url}.\n**${title}**: ${description}`
     }
 })
