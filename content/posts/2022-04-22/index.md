@@ -37,7 +37,3 @@ Westley
 ## What We Like This Week:
 - &#x1F4D6; **Book:** {{< link "https://thisishowtheytellmetheworldends.com/" 1 >}}This Is How They Tell Me The World Ends by Nicole Perlroth.{{< /link >}}Terrifying and captivating at the same time, this book is full of stories of hackers, exploits, and the clandestine cyber-arms race. Perlroth is an excellent journalist and writer. *-Westley*
 - &#x2328; **Website:** {{< link "https://rectangles.app/" 1 >}}Rectangles.{{< /link >}} My first real life open-source contribution! The creator was having some problems with some of the coloring. I wrote some code to fix it and they merged it into their main codebase! Have I mentioned the beauty of open-source?
-- &#x1F3A6; **Movie:**
-- &#x1F3A7; **Song:**
-- &#x1F4AC; **Video:**
-- &#x1F4F0; **Article:**
