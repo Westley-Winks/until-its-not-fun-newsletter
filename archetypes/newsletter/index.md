@@ -1,7 +1,7 @@
 ---
 title: {{ .Name }}
-date: {{ .Date }}
-draft: true
+date: {{ .Name }}
+draft: false
 toc: false
 ---
 ## Popcorn and A Coke
