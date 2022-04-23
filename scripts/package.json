@@ -1,0 +1,17 @@
+{
+    "name": "paperboy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "paperboy.js",
+    "type": "module",
+    "scripts": {
+        "start": "node paperboy.js"
+    },
+    "author": "Westley Winks",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "gray-matter": "^4.0.3",
+        "node-fetch": "^3.2.3"
+    }
+}
