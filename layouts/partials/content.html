@@ -23,6 +23,7 @@
 <section id="content-pane" class="">
   <div class="col-md-12 text-justify content">
     {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
+    <b>Index</b>
     {{ .TableOfContents }}
     {{ end }}
     {{ .Content }}
