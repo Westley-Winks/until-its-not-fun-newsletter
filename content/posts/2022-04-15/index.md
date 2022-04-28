@@ -2,7 +2,7 @@
 title: "IRC and Pig"
 date: 2022-04-15
 draft: false
-toc: false
+toc: true
 description: "Jacob reviews the movie Pig with Nicolas Cage and Westley writes about his experience exploring IRC."
 ---
 ## The Tech Shelf

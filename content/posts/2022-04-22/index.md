@@ -2,7 +2,7 @@
 title: "Jammy Jellyfish"
 date: 2022-04-22
 draft: false
-toc: false
+toc: true
 description: "Jacob is gone on a trip this week so it is just Westley talking about the release of Ubuntu 22.04."
 ---
 ## Popcorn and A Coke
