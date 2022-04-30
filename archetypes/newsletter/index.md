@@ -2,7 +2,8 @@
 title: {{ .Name }}
 date: {{ .Name }}
 draft: false
-toc: false
+toc: true
+description: ""
 ---
 ## Popcorn and A Coke
 ### *Where Jacob talks movies*
