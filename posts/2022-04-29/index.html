@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="A weekly newsletter.">
+<meta name="keywords" content="hugo, newsletter, tech, movies">
+
+<title>
+  Until It&#39;s Not Fun - Fresh and Complibot 
+</title>
+
+<meta name="generator" content="Hugo 0.98.0" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="text-left title">
+  <h1 class="title">Fresh and Complibot</h1>
+</header>
+<section id="category-pane" class="meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON APR 29, 2022 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="">
+  <div class="col-md-12 text-justify content">
+    
+    <b>Index</b>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#popcorn-and-a-coke">Popcorn and A Coke</a></li>
+    <li><a href="#the-tech-shelf">The Tech Shelf</a></li>
+    <li><a href="#what-we-like-this-week">What We Like This Week:</a></li>
+  </ul>
+</nav>
+    
+    <h2 id="popcorn-and-a-coke">Popcorn and A Coke</h2>
+<h5 id="where-jacob-talks-movies"><em>Where Jacob talks movies</em></h5>
+<h3 id="hahahugoshortcode-s0-hbhb"> 
+
+<a  href="https://www.imdb.com/title/tt13403046/"  target="_blank" rel="noopener">Fresh 2022</a>
+
+</h3>
+<p>Daisy Edgar-Jones  (Main)</p>
+<p>Sebastian Stan (Main)</p>
+<p>I can’t tell if this movie is a horror, suspenseful, maybe a romance? But it’s nothing like I’ve seen before!
+I started watching this with very little insight on the story, so I was on the ride through the whole thing. To me personally, it’s not a movie I’m going to re-watched 5 times like others, but I did enjoy it.</p>
+<p>I’m not going to spoil the twists, so here is a brief over view of the story.</p>
+<p>We follow a young woman, in the dating scene. She is on the verge of giving up on the whole idea when she meets a guy that sparks hope in this desert of “good guys.” We follow her on the beginnings of what seems to be a very promising relationship. But that takes a turn.</p>
+<p>If you’re looking for a good movie to watch with a friend that will definitely make your skin crawl (if it doesn’t, we need to talk), then this is a good pick!</p>
+<p>*Spoiler Warning*</p>
+<p><button type="button"
+onclick="show()"
+id="show-notes">
+Show Notes
+</button></p>
+<img src="fresh_notes.jpg" id="hidden-image" style="display: none;"/>
+<h2 id="the-tech-shelf">The Tech Shelf</h2>
+<h5 id="where-westley-talks-about-discord-bots"><em>Where Westley talks about Discord Bots</em></h5>
+<p>In January 2022, I built my first Discord bot. It was very crudely put together and completely unreliable. Jacob wanted a bot in the server that would randomly insult our friends during the day. Put simply, he wanted a bot that was mildly an asshole. On that weekday in Powell Butte, Complibot was born.</p>
+<p>I threw together Complibot v0 in a few hours using Python and a couple tutorials. Simplicity and fun was the goal at that point. Since I am very comfortable with Python, I opted to use a third party package,  
+
+<a  href="https://github.com/Rapptz/discord.py"  target="_blank" rel="noopener">discord.py,</a>
+
+ that wraps Discord&rsquo;s API&rsquo;s which are normally used with Javascript. The goal was to have Complibot send a random insult or compliment (I didn&rsquo;t want her to be too mean) to someone twice a day, at random times.</p>
+<p>She was completely unpredictable. I couldn&rsquo;t get the randomness and time (we didn&rsquo;t want her pinging us in the middle of the night) to work with the asynchronous nature of the Python functions. I converted it to use commands like <code>/insult</code> and <code>/compliment</code> to trigger it or whenever she was mentioned. This worked fine except for the weighting between her picking an insult or a compliment. On average, she should have sent one compliment for every insult; all of her responses were insults. To this day, I have no idea why the weighting wasn&rsquo;t 50/50.</p>
+<p>Not only that, the channel members were static; I handwrote everyone&rsquo;s member ID into a <code>.txt</code> file and she picked from that randomly. Every time someone joined the server, I would have to edit that <code>.txt</code> file to put the new member in the pool to be selected. The code was embarrassingly bad but, hey, it worked and made my friends laugh.</p>
+<p>The deployment was even worse. I deployed Complibot on Heroku where she listened and was running 24/7. Because I was too cheap to get out of Heroku&rsquo;s free tier, Heroku limited the time to about three weeks per month. Complibot didn&rsquo;t even work for the last week of the month.</p>
+<p>Why am I talking about a failed bot I built months ago? Two reasons:</p>
+<ol>
+<li>
+<p>I released a newly developed and much, <em>much</em> better version, Complibot v1</p>
+</li>
+<li>
+<p>I recently applied for a job at Discord so I have been thinking about bots lately</p>
+</li>
+</ol>
+<p>For Complibot v1, I completely rebuilt it from the ground up. In most of Discord&rsquo;s guides and resources, they use Javascript. Any time is a good time to learn a new programming language! In one weekend, I had a bot that works every time, is deployed much more reliably, and  
+
+<a  href="https://github.com/Westley-Winks/complibot"  target="_blank" rel="noopener">is open source</a>
+
+. I came out with Javascript knowledge and continuous deployment knowledge.</p>
+<p>Discord&rsquo;s  
+
+<a  href="https://discord.com/developers/docs/getting-started"  target="_blank" rel="noopener">getting started guide</a>
+
+ helped immensely. I took most of Complibot&rsquo;s parts and pieces from their demo project. Complibot now has full support for slash commands. When you start typing a Complibot command, Discord shows the description of what the command does and also prompts the user what to put in after the command.</p>
+<p>I am most excited about the deployment. Complibot now lives on Google Cloud Platform&rsquo;s Cloud Run. Cloud Run is a serverless platform that runs apps. Because it is serverless, Complibot isn&rsquo;t constantly running and increasing my bill. It goes to sleep after 300 seconds of inactivity and wakes back up whenever someone sends her a command. She only takes about three seconds to wake up and send a response. Cloud Run also connects nicely with Cloud Build. Cloud Build is configured to trigger a build whenever there is a push to the main codebase on Complibot&rsquo;s GitHub repo. This makes my life so much easier and I am able to make changes on the fly. When I push changes to share my code on GitHub, those changes are automatically reflected in the Discord channel within minutes thanks to GCP.</p>
+<p>Using this same process, I <del>am working on</del> built a bot that sends a message to Discord whenever this newsletter gets sent out each week. You might be thinking, &ldquo;Why? Isn&rsquo;t that exactly what an email does? Subscribers will get a message in their emails whenever this newsletter gets sent out.&rdquo;</p>
+<p>That is exactly right. But learning is fun, so why <em>not</em>?</p>
+<p>Keep learning.</p>
+<p>I leave you with some Complibot samples:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>/compliment: You’re great at figuring stuff out.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>/insult: If I typed ‘stupid’ in google, your name would pop up.
+</span></span></code></pre></div><p>Ouch.</p>
+<p>I have the honor to be Your Obedient Servant,</p>
+<p>Westley</p>
+<h2 id="what-we-like-this-week">What We Like This Week:</h2>
+<ul>
+<li>📖 <strong>Book:</strong>  
+
+<a  href="https://www.andyweirauthor.com/books/project-hail-mary-hc/project-hail-mary-el"  target="_blank" rel="noopener">Project Hail Mary</a>
+
+ by  
+
+<a  href="https://twitter.com/andyweirauthor"  target="_blank" rel="noopener">Andy Weir</a>
+
+. What a journey. If you liked <em>The Martian</em> by Weir, you are guaranteed to enjoy both the similarities and differences with this one. <em>- Westley</em></li>
+<li>💬 <strong>Video:</strong>  
+
+<a  href="https://youtube.com/playlist?list=PLdyNenIpg--7mKUWtcP5zjoBNmg9Le_jz"  target="_blank" rel="noopener">This playlist</a>
+
+. I&rsquo;ve been watching through this Youtube playlist, about a charity motorcycle ride across Australia, and it makes me want to grab all my friends and take off on Monkey bikes! <em>- Jacob</em></li>
+<li>🎮 <strong>Game:</strong>  
+
+<a  href="https://www.redactle.com/"  target="_blank" rel="noopener">Redactle.</a>
+
+Now that the Wordle hype has died down, here&rsquo;s a Wordle spin-off! Every day, a Wikipedia article is redacted. Guess words to fill it in until you can guess the title of the Wikipedia article. (HT  
+
+<a  href="https://www.morningbrew.com/daily"  target="_blank" rel="noopener"><em>The Morning Brew</em></a>
+
+) <em>- Westley</em></li>
+</ul>
+
+  </div>
+</section>
+<section id="tag-pane" class="meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+<section id="menu-pane" class="menu text-center">
+  <h4 class="text-center"><a class="menu-item" href="https://untilitsnotfun.com">Home</a></h4>
+</section>
+
+
+
+<section id="main-menu-pane" class="text-center main-menu">
+  
+  <h4><a class="menu-item" href="/posts/">Posts</a></h4>
+  
+</section>
+
+
+
+
+
+<footer class="text-center footer">
+  <hr />
+
+  <a href="https://buttondown.email/untilitsnotfun" target="_blank" rel="noopener">Subscribe here to get posts in your inbox.</a>
+
+  <form
+  style="padding: 15px;"
+  action="https://buttondown.email/api/emails/embed-subscribe/untilitsnotfun"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/untilitsnotfun', 'popupwindow')"
+  class="embeddable-buttondown-form"
+  >
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  </form>
+
+  <h6 class="text-center">See a problem? <a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter/issues" target="_blank" rel="noopener">Open an issue on GitHub!</a></h6>
+
+  <h6 class="text-center">Want to chat? <a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter/discussions" target="_blank" rel="noopener">Open a discussion on GitHub</a> or <a href="mailto://westley@untilitsnotfun.com" target="_blank" rel="noopener">email us!</a></h6>
+
+  
+  
+
+  <h6 class="text-center copyright"><a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter" target="_blank" rel="noopener">This website is open source!</a></h6>
+
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo  v0.98.0</a> &amp; <a href="https://github.com/shenoybr/hugo-goa" target="_blank" rel="noopener">Goa</a> &amp; <a href="https://buttondown.email?utm_campaign=untilitsnotfun&utm_affiliate=affiliate" target="_blank" rel="noopener">Buttondown</a></h6>
+
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/custom.js"></script>
+</body>
+</html>
+
