@@ -15,6 +15,10 @@ Then go crazy and have fun changing everything! See what your site looks like by
 
 We use [Buttondown](https://buttondown.email/?utm_campaign=untilitsnotfun&utm_affiliate=affiliate) to distribute emails. There is a script (`scripts/make_newsletter_draft.py`) that uses Buttondown's API to generate a draft. It uses the title of the index file as the subject, the content as the body, and a custom header that links to the post on our website. Run the script with environment variable `INPUT_POST_PATH` that is equal to the folder path of the post you want to draft (e.g. `INPUT_POST_PATH=2022-04-15`). Then go make sure it is formatted correctly in your Buttondown drafts and hit send!
 
+## Workflow
+
+![Flowchart of newsletter workflow](static/workflow.jpg)
+
 # Contributing
 If you have any feedback on either the site or the newsletter content itself, [open an issue!](https://github.com/Westley-Winks/until-its-not-fun-newsletter/issues) If you have questions about anything or want to reach out to us you can either [open a discussion](https://github.com/Westley-Winks/until-its-not-fun-newsletter/discussions) or (even better!) [subscribe to the newsletter](https://buttondown.email/untilitsnotfun) and hit reply. We would be happy to hear from anyone!
 # License
