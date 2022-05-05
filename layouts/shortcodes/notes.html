@@ -1,0 +1,7 @@
+<button type="button"
+        onclick="show()"
+        id="show-notes">
+        Show Notes
+</button>
+
+<img {{ with .Get 0 }} src="{{ . }}" {{ end }} id="hidden-image" style="display: none;"/>
