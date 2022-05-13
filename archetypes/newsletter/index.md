@@ -5,13 +5,20 @@ draft: false
 toc: true
 description: ""
 ---
+
+---
+
 ## Popcorn and A Coke
 ### *Where Jacob talks movies*
 ...
 
 ...
 
-...
+\*Spoiler Warning\*
+
+{{< notes notes.jpg >}}
+
+---
 
 ## The Tech Shelf
 ### *Where Westley talks about technology*
@@ -24,6 +31,8 @@ description: ""
 I have the honor to be Your Obedient Servant,
 
 Westley
+
+---
 
 ## What We Like This Week:
 - &#x1F4D6; **Book:**

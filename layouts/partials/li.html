@@ -19,7 +19,7 @@
         </span>
       </p>
       <p class="excerpt">
-      {{ .Description }}
+      {{ .Description | markdownify }}
       </p>
     </li>
     {{ end }}
