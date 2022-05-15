@@ -16,8 +16,6 @@
 <meta name="generator" content="Hugo 0.98.0" />
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -74,26 +72,26 @@
 <p>Developed in 2004 by John Gruber and Aaron Swartz, Markdown allows you to write in plain text and doesn&rsquo;t require a special program to read the content. Word documents (.doc or .docx) are <strong>binary</strong> files; ones and zeroes that machines can read very well but humans can&rsquo;t read at all. Thus, we need the Word program to translate those ones and zeroes to plain text so that we can actually use them. &ldquo;Languages&rdquo; like Markdown and HTML allow us to work directly with plain text so that we don&rsquo;t need a specific translator.</p>
 <p>I put languages in quotes for a reason. Markdown is what is generally known as a lightweight markup language. Another markup language is HTML (Hyper Text Markup Language) which is what webpages are written in (including what you are reading right now!). At a general level, markup languages simply describe the content in a digital document. Lightweight markup languages (like Markdown) are designed to be simple, easy to use, and human-readable.</p>
 <p>All of the posts of this newsletter are written with Markdown. You can see the raw Markdown of this exact post on <a href="https://raw.githubusercontent.com/Westley-Winks/until-its-not-fun-newsletter/main/content/posts/2022-05-13/index.md">our GitHub repo,</a> and anyone with internet can read it. What you are reading now is the conversion of that Markdown into rendered content. In the raw Markdown, you can see that the section headings are defined by octothorpes (or hashtags for the youngsters) like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span><span style="color:#75715e">## Popcorn and A Coke
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">### *Where Jacob talks movies*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">## The Tech Shelf
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">### *Where Westley talks about Markdown*
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span><span style="color:#800080;font-weight:bold">## Popcorn and A Coke
+</span></span></span><span style="display:flex;"><span><span style="color:#800080;font-weight:bold">### *Where Jacob talks movies*
+</span></span></span><span style="display:flex;"><span><span style="color:#800080;font-weight:bold"></span>
+</span></span><span style="display:flex;"><span><span style="color:#800080;font-weight:bold">## The Tech Shelf
+</span></span></span><span style="display:flex;"><span><span style="color:#800080;font-weight:bold">### *Where Westley talks about Markdown*
 </span></span></span></code></pre></div><p>When the conversion between Markdown and what you are seeing now happens, the program knows when it sees an octothorpe to make the text that follows larger and grey.</p>
 <p>Similar rules apply for links, bold font, italic font, and others:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>[<span style="color:#f92672">our GitHub repo.</span>](<span style="color:#a6e22e">https://raw.githubusercontent.com/Westley-Winks/until-its-not-fun-newsletter/main/content/posts/2022-05-13/index.md</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>[<span style="color:#062873;font-weight:bold">our GitHub repo.</span>](<span style="color:#4070a0">https://raw.githubusercontent.com/Westley-Winks/until-its-not-fun-newsletter/main/content/posts/2022-05-13/index.md</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">**Bold**</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="font-style:italic">*italic*</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">~~Strike through~~</span>
+</span></span><span style="display:flex;"><span><span style="color:#a00000">~~Strike through~~</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Bulleted
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> List
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">-</span> Bulleted
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">-</span> List
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Numbered
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> List
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">1.</span> Numbered
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">2.</span> List
 </span></span></code></pre></div><p>This all makes writing on the internet incredibly easy. No need to mess with styling or formatting, you can just simply write. So why isn&rsquo;t everyone using Markdown? For the everyday lay-person it just isn&rsquo;t as easy and for most tasks a Word document works great. There is no widely available and popular Markdown editor made specifically for the task. However, if you do a lot of communication on the internet, I would suggest learning Markdown and finding a good system that works for you. Personally, I use  
 
 <a  href="https://code.visualstudio.com/"  target="_blank" rel="noopener">VSCode</a>
@@ -101,11 +99,11 @@
  and that works great for the workflow of the newsletter.</p>
 <p>There have been some (controversial) standardization efforts that attempt to unify the syntax and all the different implementations of Markdown. As a result, Markdown support is coming to more and more platforms like Discord, GitHub, Slack. I think Markdown&rsquo;s simplicity and optimization for writing will make it increasingly relevant in the future.</p>
 <p>I leave you this week with a joke and a Markdown example for you to try. Paste this into Discord and see the Markdown magic:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#f92672">*</span>I asked my friend <span style="color:#e6db74">&#34;Do you know any other word for a big rock?&#34;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">*</span>I asked my friend <span style="color:#4070a0">&#34;Do you know any other word for a big rock?&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>He said <span style="color:#e6db74">&#34;Boulder?&#34;</span><span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>He said <span style="color:#4070a0">&#34;Boulder?&#34;</span><span style="color:#666">*</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>I said <span style="color:#f92672">**</span><span style="color:#e6db74">&#34;Do you know any other word for a big rock?&#34;</span><span style="color:#f92672">**</span>
+</span></span><span style="display:flex;"><span>I said <span style="color:#666">**</span><span style="color:#4070a0">&#34;Do you know any other word for a big rock?&#34;</span><span style="color:#666">**</span>
 </span></span></code></pre></div><p>I have the honor to be Your Obedient Servant,</p>
 <p>Westley</p>
 <hr>
@@ -204,13 +202,6 @@
 </div>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  
-
-<script type="text/javascript">
-hljs.initHighlightingOnLoad();
-</script>
 
 
 
