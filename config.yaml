@@ -1,0 +1,95 @@
+## Basic Configuration
+
+baseURL: https://untilitsnotfun.com
+languageCode: en-US
+enableEmoji: true
+enableRobotsTXT: true
+
+author: Until It's Not Fun
+title: Until It's Not Fun
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: friendly
+
+## Hugo Built-in Features
+## googleAnalytics = "XYZ"
+
+
+## Site Settings
+params:
+  author: "Until It's Not Fun"
+  intro: "A Weekly Newsletter"
+  description: "We are just a couple of friends wanting to build a newsletter for ourselves, with no expectations other than having fun.\n\nSo, how long are we doing this for?\n\nUntil It's Not Fun."
+  authorimage: "headshot.jpg"
+  dateformat: "Jan 2, 2006"
+
+## Site Meta Settings
+  meta:
+    description: "A weekly newsletter."
+    keywords: "hugo, newsletter, tech, movies"
+
+  authors:
+    - name: Jacob McLane
+      image: jacob.jpg
+    - name: "Westley Winks"
+      image: "westley.jpeg"
+
+## Social Accounts
+  # social:
+  #   github: Westley-Winks/until-its-not-fun-newsletter
+## instagram = "<username>"
+## linkedin = "<username>"
+## youtube = "<channelid>"
+## email = "you@example.com"
+## xing = "<username>"
+## twitter = "<username>"
+## facebook = "<username>"
+## google = "<username>"
+## googlescholar = "<account_id>"
+## stackoverflow = "<username>"
+## lastfm = "<username>"
+## goodreads = "<username>"
+## gitlab = "<username>"
+## bitbucket = "<username>"
+## fivehundredpx = "<username>"
+## flickr = "<username>"
+## foursquare = "<username>"
+## hackernews = "<username>"
+## kickstarter = "<username>"
+## patreon = "<username>"
+## pintrest = "<username>"
+## steam = "<username>"
+## reddit = "<username>"
+## snapchat = "<username>"
+## keybase = "<username>"
+## twitch = "<username>"
+## soundcloud = "<username>"
+## tumblr = "<username>"
+## strava = "<username>"
+## skype = "<username>"
+## telegram = "<username>"
+## whatsapp = "<username>"
+## pgp = "<key_fingerprint>"
+
+## Extras
+  extra:
+    copyright: © 2022. Until It's Not Fun.
+    poweredby: true
+    highlightjs: false
+    socialmarkup: true
+    toc: true
+
+## Main Menu
+# menu:
+#   main:
+#     - name: "About"
+#       identifier: "About"
+#       weight: 100
+#       url: "/about/"
