@@ -1,10 +1,12 @@
 name: github-pages
 
 on:
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
+  workflow_dispatch: {} # manual
+  schedule:
+    - cron: "0 20 * * 5" # runs at 20:00 every friday
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   deploy:
@@ -22,7 +24,7 @@ jobs:
           extended: true
 
       - name: build
-        run: hugo -F
+        run: hugo
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@bbdfb200618d235585ad98e965f4aafc39b4c501 # v3.7.3
