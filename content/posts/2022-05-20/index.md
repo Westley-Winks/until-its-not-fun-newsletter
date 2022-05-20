@@ -39,7 +39,7 @@ I wanted to be a fan, because it's an excuse to have friends over, yell at the T
 
 That's the goal.
 
-So if I invite you over for a Diamondbacks game, it's not really about the game. It's about hanging out, so bring your beer and coaster, a hat and jersey, and let's hang out together, yell at the TV and grow our relationship.
+So if I invite you over for a Diamondbacks game, it's not really about the game. It's about hanging out, so bring your beer and coozie, a hat and jersey, and let's hang out together, yell at the TV and grow our relationship.
 
 Thank you for your time,  
 Jacob
