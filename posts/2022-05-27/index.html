@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="A weekly newsletter.">
+<meta name="keywords" content="hugo, newsletter, tech, movies">
+
+<title>
+  Until It&#39;s Not Fun - Proton and Plant Mom 
+</title>
+
+<meta name="generator" content="Hugo 0.99.1" />
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="text-left title">
+  <h1 class="title">Proton and Plant Mom</h1>
+</header>
+<section id="category-pane" class="meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON MAY 27, 2022 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="">
+  <div class="col-md-12 text-justify content">
+    
+    <b>Index</b>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#popcorn-and-a-coke">Popcorn and A Coke</a></li>
+    <li><a href="#the-tech-shelf">The Tech Shelf</a></li>
+    <li><a href="#girlboss">Girlboss</a></li>
+    <li><a href="#what-we-like-this-week">What We Like This Week:</a></li>
+  </ul>
+</nav>
+    
+    <hr>
+<h2 id="popcorn-and-a-coke">Popcorn and A Coke</h2>
+<h3 id="where-jacob-talks-movies"><em>Where Jacob talks movies</em></h3>
+<p>From Jacob: “Hello to our thousands of readers, I apologize but I haven’t had time to really sit down and analyze a film lately, I thought about whipping something together, but decided that isn’t what this is for anyway. Tune in next week I think I’ve got a banger in store!”</p>
+<hr>
+<h2 id="the-tech-shelf">The Tech Shelf</h2>
+<h3 id="where-westley-talks-about-proton"><em>Where Westley talks about Proton</em></h3>
+<p>I have been using  
+
+<a  href="https://proton.me/"  target="_blank" rel="noopener">Proton Mail</a>
+
+ for a few months now instead of using GMail. Proton offers secure, encrypted email that gets locked up in a such a way that only you and the recipient see the message.</p>
+<p>What does this mean? When you send an email from your GMail account, it gets stored on Google&rsquo;s servers as plain text. This means that anyone that can access the servers can see all of your emails; when they were sent, who they were sent to, and the actual message content. Authorities can also request the records from Google and give Google a gag order to prevent anyone from knowing they accessed them.</p>
+<p>Encrypted email offers a &ldquo;solution&rdquo;. Before being sent, your email gets encrypted, jumbled into an unreadable mess. Even if Proton wanted to see your message (or anyone else for that matter), they physically can&rsquo;t. They are stored with zero-access encryption on Proton&rsquo;s servers. I put &ldquo;solution&rdquo; in quotes because this is a classic case of the  
+
+<a  href="https://www.investopedia.com/terms/n/network-effect.asp"  target="_blank" rel="noopener">Network Effect.</a>
+
+ The more people that use Proton, the better it is for everyone.</p>
+<p>Let&rsquo;s say I sent a message from my Proton Mail to a GMail user. That message still makes its way to Google servers where they have the keys to access the message (you can, however, use password protection to have a weaker form of encryption). The real magic happens when I send an email to another Proton user. Since both the recipient and the sender put the message on Proton servers where there is zero-access encryption, that email is end-to-end encrypted: <em>only</em> the sender and recipient can see the message.</p>
+<p>How does this encryption happen physically? Proton uses <strong>public key encryption</strong>. Each person generates two keys; a public key and a private key. Keys are long (usually 2048 bits) strings of characters and an encryption algorithm uses these to quickly lock or unlock the message. The basic concept is that anything locked with a <em>public</em> key can only be unlocked with the matching <em>private</em> key.</p>
+<p>If I wanted to send you an end-to-end encrypted email, I would write my email and look up <em>your</em> public key. I would then lock my message with it. The only way for anyone to de-scramble that message is with your private key which only you have. To reply, you would encrypt your message with my public key that can only be unlocked with my private key. Proton does this all automatically and it is exactly like using any other email service but with excellent protection in the background.</p>
+<p>Encryption and cryptography is a massive field and this is just the most basic idea.</p>
+<p>Proton also offers a fantastic VPN service. With a VPN, all of your internet traffic gets routed to a different server so it looks like your traffic is coming from somewhere else. The most relevant benefit for this is that it hides your internet activity from your internet service provider (Starlink, Bend Broadband, etc.) to prevent them from selling your internet history data.</p>
+<p>The trick is that you have to trust your VPN service to not do the exact same thing. Proton VPN has been audited by a third party and can prove that they don&rsquo;t keep logs of your internet traffic. Your internet activity gets routed through Proton servers and then they <em>burn that data</em> (virtually, of course).</p>
+<p>I barely scratched the surface of why Proton offers a fantastic service and I didn&rsquo;t even get into their mission and why people should pay for this service to support Proton&rsquo;s mission. Proton just got a huge update with a re-branding and a simplified pricing structure. Privacy focused companies usually stall out after a certain amount of growth simply because people generally don&rsquo;t care about their online privacy. This is a huge step in the internet privacy space and it is exciting to see a solid company with a strong mission grow into an actual competitor to the more mainstream companies.</p>
+<p>Next up we have a special guest, Mary McLane! Good with her words and quick on her feet, Mary is a dear friend of mine.</p>
+<p>I have the honor to be Your Obedient Servant,</p>
+<p>Westley</p>
+<hr>
+<h2 id="girlboss">Girlboss</h2>
+<h3 id="where-mary-girl-and-boss-talks-about-whatever-girl-bosses-of-the-world-may-be-up-to"><em>Where Mary (girl and boss) talks about whatever girl bosses of the world may be up to!</em></h3>
+<p>Guest column 1: Plant mom?</p>
+<p>First of all, thank you to Jacob and Westley for allowing me to be a guest writer on their newsletter! As a longtime ‘Until It’s Not Fun’ fan, this really is a dream come true.</p>
+<p>I’m beginning writing on Monday morning, so I thought I could talk about one thing I was up to this past weekend - which is becoming a plant mom!</p>
+<p>I visited a nursery in town with Holly and Lydia, and while I was planning on just tagging along (and taking advantage of the Starbucks trip) I became really inspired while seeing all of the different plants at the nursery.</p>
+<p>I think it’s important to touch on the fact that I have very, very little experience in plant care. In fact, I’ve only ever “kept alive” one plant before, and quite honestly, it’s not doing that well… But, there’s no time like the girlboss present to learn something new!</p>
+<p>I picked up two plants at the nursery, along with two pots. I took advice from Lydia and simply set the nursery planters into the pots I purchased, which helps protect from root rot. Eventually, I may decide to fully transplant (see what I did there?) the plants into their respective pot homes with potting soil. But for now, I’m going to play it safe and let them continue to thrive in their nursery housing!</p>
+<p>The first plant I was drawn to is a leafy specimen. The nursery donned this plant as “Calathea Makoyana“ , however I felt the name Lola was more fitting! You can see a photo of Lola in her new pot home below.</p>
+<p><img src="lola.jpg" alt="A Calathea Makoyana plant sitting in a windowsill"></p>
+<p>The second plant that caught my eye is a more petite girl, called “Callisia, Pink Panther” via the nursery. Although, since this plant stood out to me because of its purple coloring, I decided to go with Lila! (Full name: Lilac) Check out a photo of Lila hanging out in her pot home below!</p>
+<p><img src="lila.jpg" alt="A Callisia, Pink Panther sitting in a windowsill"></p>
+<p>Now, I could’ve stopped there. But what part of girlboss screams “STOP WHILE YOU’RE AHEAD!” ?! We headed to Wilco to grab some vegetable starters. While there, I spied a strawberry plant starter.. and as a strawberry lover, I just had to! So I grabbed a strawberry plant starter, and another pot.</p>
+<p>This is a slightly different adventure, as this will be an outdoor girl, as opposed to Lola and Lila, who are inside girls. It’s also a slightly different adventure because I transplanted (haha!) the strawberry plant into some potting soil! It was fun to get my hands dirty in the soil, and pack my strawberry plant away in her new home.</p>
+<p>Check out a photo of Halle (short for Halle Berry) below!</p>
+<p><img src="halle.jpg" alt="A potted strawberry plant sitting on a porch"></p>
+<p>So, that has been my most recent adventure in girlboss-ing! I’m really excited, as I’ve always really admired people who can care for such tender, vulnerable life that is plant life. I have a lot to learn, and it’s going to be a really fun journey!</p>
+<p>Thanks again for allowing me to be a part of this edition of ‘Until It’s Not Fun’!</p>
+<p>xoxo,<br>
+Mary</p>
+<hr>
+<h2 id="what-we-like-this-week">What We Like This Week:</h2>
+<ul>
+<li>📖 <strong>Book:</strong>  
+
+<a  href="https://www.nitaprose.com/the-maid/"  target="_blank" rel="noopener">The Maid by Nita Prose.</a>
+
+ This book was a super fun read! It’s lighthearted and heartwarming, with a touch of mystery and thrill. I gave it 5 stars! <em>-Mary</em></li>
+<li>💬 <strong>Video:</strong>  
+
+<a  href="https://www.youtube.com/watch?v=svqEHp25Y7M"  target="_blank" rel="noopener">Santa Barbara performed by Pomplamoose and Benny Sings</a>
+
+ At this point, I should just have a section titled <strong>This week&rsquo;s Pomplamoose video</strong>. It is just too good to not share. <em>-Westley</em></li>
+<li>📲 <strong>App:</strong>  
+
+<a  href="https://blossomplant.com/"  target="_blank" rel="noopener">Blossom.</a>
+
+ “Blossom” app is helping me learn more about my plants! It also send out reminders for when they need to be watered. <em>-Mary</em></li>
+</ul>
+
+  </div>
+</section>
+<section id="tag-pane" class="meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+<section id="menu-pane" class="menu text-center">
+  <h4 class="text-center"><a class="menu-item" href="https://untilitsnotfun.com">Home</a></h4>
+</section>
+
+
+
+<section id="main-menu-pane" class="text-center main-menu">
+  
+  <h4><a class="menu-item" href="/posts/">Posts</a></h4>
+  
+</section>
+
+
+
+
+
+<footer class="text-center footer">
+  <hr />
+
+  <a href="https://buttondown.email/untilitsnotfun" target="_blank" rel="noopener">Subscribe here to get posts in your inbox.</a>
+
+  <form
+  style="padding: 15px;"
+  action="https://buttondown.email/api/emails/embed-subscribe/untilitsnotfun"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/untilitsnotfun', 'popupwindow')"
+  class="embeddable-buttondown-form"
+  >
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  </form>
+
+  <h6 class="text-center">See a problem? <a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter/issues" target="_blank" rel="noopener">Open an issue on GitHub!</a></h6>
+
+  <h6 class="text-center">Want to chat? <a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter/discussions" target="_blank" rel="noopener">Open a discussion on GitHub</a> or <a href="mailto://westley@untilitsnotfun.com" target="_blank" rel="noopener">email us!</a></h6>
+
+  
+  
+
+  <h6 class="text-center copyright"><a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter" target="_blank" rel="noopener">This website is open source!</a></h6>
+
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo  v0.99.1</a> &amp; <a href="https://github.com/shenoybr/hugo-goa" target="_blank" rel="noopener">Goa</a> &amp; <a href="https://buttondown.email?utm_campaign=untilitsnotfun&utm_affiliate=affiliate" target="_blank" rel="noopener">Buttondown</a></h6>
+
+  
+</footer>
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/custom.js"></script>
+</body>
+</html>
+

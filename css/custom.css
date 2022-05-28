@@ -35,3 +35,7 @@ h6 a {
 h6 a:hover {
   background: transparent;
 }
+
+h2 + h3 {
+  font-size: 1.25rem;
+}
