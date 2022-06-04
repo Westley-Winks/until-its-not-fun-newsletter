@@ -39,3 +39,41 @@ h6 a:hover {
 h2 + h3 {
   font-size: 1.25rem;
 }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: 'TL;DR';
+  font-size: 1em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote.tldr {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote.tldr:before {
+  color: #ccc;
+  content: 'TL;DR';
+  font-size: 1em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+}
+
+blockquote.tldr p {
+  display: inline;
+}
