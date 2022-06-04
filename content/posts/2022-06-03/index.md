@@ -55,6 +55,8 @@ Westley
 ## Popcorn and A Coke
 ### *Where Jacob talks movies*
 
+![](catch.jpg)
+
 Westley and I broke our catch record this week (146)! We will keep you up to date on current records!
 
 Jacob
