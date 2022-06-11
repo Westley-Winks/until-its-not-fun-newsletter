@@ -4,9 +4,9 @@ on:
   workflow_dispatch: {} # manual
   schedule:
     - cron: "0 3 * * 6" # runs at 20:00 every friday
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
