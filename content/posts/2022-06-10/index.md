@@ -34,7 +34,12 @@ Jacob
 
 \*Spoiler Warning\*
 
-{{< notes notes.jpg >}}
+{{< notes notes.jpg >}}  
+<br />
+P.S. Westley and I broke our catch record this week (***803***)!
+
+![](catch.jpg)
+
 
 ---
 
