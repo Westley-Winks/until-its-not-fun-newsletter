@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Until It&#39;s Not Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jun 2022 19:00:00 -0700</lastBuildDate><atom:link href="https://untilitsnotfun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jun 2022 19:00:00 -0700</lastBuildDate><atom:link href="https://untilitsnotfun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sorting Algorithms</title>
+      <link>https://untilitsnotfun.com/posts/2022-06-24/</link>
+      <pubDate>Fri, 24 Jun 2022 19:00:00 -0700</pubDate>
+      
+      <guid>https://untilitsnotfun.com/posts/2022-06-24/</guid>
+      <description>The Tech Shelf Where Westley talks about sorting This Tuesday, Jacob and I found ourselves with a pile of hundreds of football and baseball cards searching each one on an app to get a rough estimate of their value. We started off by just searching the name of each player one by one but that quickly grew boring and would have taken us months.
+Our next workflow was to sort all of them into their individual teams (33 for the NFL and 30 for the MLB) and then look at the most popular in the app and see if we had that player.</description>
+    </item>
+    
     <item>
       <title>Tech Stocks and Westley</title>
       <link>https://untilitsnotfun.com/posts/2022-06-17/</link>
