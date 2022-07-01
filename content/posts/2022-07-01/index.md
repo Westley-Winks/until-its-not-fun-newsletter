@@ -1,9 +1,9 @@
 ---
-title: The Week
+title: The Week and Callum
 date: 2022-07-01T19:00:00-07:00
 draft: false
 toc: true
-description: "Westley recaps the highlights of the week"
+description: "Westley recaps the highlights of the week and Jacob interviews the big cousin Callum"
 ---
 
 ---
@@ -31,6 +31,29 @@ With much to do and much to celebrate this past week, this post is going to be a
 I have the honor to be Your Obedient Servant,
 
 Westley
+
+---
+
+## Popcorn and A Coke
+### *Where Jacob talks movies*
+
+**Jacob:** Hello. Today I'm interviewing Callum Craig on his experience moving to Bend, Oregon from Portland, Oregon. I wanted to get his first impressions for being here. What was it, how long now? 
+
+**Callum:** About half a month. 
+
+**Jacob:** Callum, how has the half a month changed you?
+
+**Callum:** It hasn't really been a change. It's been more of a, almost like a coming home. I would say the family feel between living in Portland and living in Bend is very different.  
+Instead of having friends I have family, instead of having nights out, I have day projects.  
+It's been an enjoyable time. I'm glad I made this decision and this is all that I wished it would be.
+
+**Jacob:** That is fantastic. I look forward to seeing what the future holds for Callum Craig.
+
+![Photo of Callum](callum.jpg)
+
+Thank you for your time,
+
+Jacob
 
 ---
 
