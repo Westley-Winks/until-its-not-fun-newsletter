@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://untilitsnotfun.com/posts/</loc>
-    <lastmod>2022-07-01T19:00:00-07:00</lastmod>
+    <loc>https://untilitsnotfun.com/posts/2022-07-08/</loc>
+    <lastmod>2022-07-08T19:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://untilitsnotfun.com/posts/2022-07-01/</loc>
-    <lastmod>2022-07-01T19:00:00-07:00</lastmod>
+    <loc>https://untilitsnotfun.com/posts/</loc>
+    <lastmod>2022-07-08T19:00:00-07:00</lastmod>
   </url><url>
     <loc>https://untilitsnotfun.com/</loc>
+    <lastmod>2022-07-08T19:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://untilitsnotfun.com/posts/2022-07-01/</loc>
     <lastmod>2022-07-01T19:00:00-07:00</lastmod>
   </url><url>
     <loc>https://untilitsnotfun.com/posts/2022-06-24/</loc>
